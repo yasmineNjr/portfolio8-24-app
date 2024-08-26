@@ -1,0 +1,15 @@
+tutorial url
+Build and Deploy an Amazing Developer Portfolio with Next JS and Framer Motion
+https://www.youtube.com/watch?v=FTH6Dn3AyIQ
+
+developed with nextjs + typescript + tailwind
+
+for animation
+https://aceternity.sveltekit.io/
+
+
+for gradient
+https://cssgradient.io/
+
+for fix errors 
+https://sentry.io/welcome/
