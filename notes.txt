@@ -1,8 +1,12 @@
+real website url
+https://portfolio8-24-app.vercel.app/
+
+
 tutorial url
 Build and Deploy an Amazing Developer Portfolio with Next JS and Framer Motion
 https://www.youtube.com/watch?v=FTH6Dn3AyIQ
 
-developed with nextjs + typescript + tailwind
+////developed with nextjs + typescript + tailwind////
 
 for animation
 https://aceternity.sveltekit.io/
@@ -11,5 +15,5 @@ https://aceternity.sveltekit.io/
 for gradient
 https://cssgradient.io/
 
-for fix errors 
+for fix errors and user feedback
 https://sentry.io/welcome/

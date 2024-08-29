@@ -76,7 +76,7 @@ export const navItems = [
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      link: "https://www.google.com/",
     },
     {
       id: 2,
@@ -107,34 +107,45 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Yasmine was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yasmine's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Yasmine is the ideal partner.",
+      name: "Ala'a Aldeen Alzayat",
+      title: "Director of Solutions and Empowerment Company",
+      img: "/zayyat.jpg"
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      quote:// Yasmine has demonstrated exceptional skill in translating theoretical concepts into practical applications. , particularly in their work with Next.js, where they have shown a deep understanding of web development.
+      "I've had the pleasure of working with Yasmine during her time as a student in our Computer Engineering program. Her dedication to mastering complex algorithms and her innovative approach to problem-solving have consistently impressed both myself and her peers. Her ability to tackle challenging projects with enthusiasm and precision is a testament to her potential as a future leader in the tech industry.",
+      name: "Dr. Mohamad Ayman Na'al",
+      title: "Ph.D. in Computer Engineering at Aleppo University",
+      img: "/ayman.png"
+    }, 
+    {
+      quote://, ensuring timely delivery and exceptional quality. Her ability to effectively communicate complex technical concepts and work seamlessly within a team makes her an invaluable asset to our company.
+        "Working with Yasmine has been an absolute pleasure. Her expertise in software development and innovative approach to problem-solving have consistently exceeded our expectations. Yasmine brings a remarkable level of dedication and professionalism to every project. I highly recommend Yasmine for any organization seeking top-notch software solutions and a collaborative team player.",
+      name: "Eng. Nouran Masry",
+      title: "IT Administrator at Institute of Computer Technologies",
+      img: "/nouran.jpg"
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      quote://The application is user-friendly, efficient, and has significantly improved our ability to track student progress, manage staff schedules, and streamline communication within the school. Yasmine's technical expertise, attention to detail, and commitment to excellence were evident throughout the entire process. 
+        "Working with Yasmine to develop our school's management application has been an incredible experience. Yasmine took the time to understand our unique needs and delivered a custom solution that has transformed how we manage daily operations. We are extremely satisfied with the results and highly recommend Yasmine for any software development project.",
+      name: "Eng. Mohamad Waddah Meera",
+      title: "Former Director at Taiba School",
+      img: "/waddah.jpg"
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      quote://, and her expertise in both React and React Native has consistently impressed me.  I highly recommend [Your Name] to anyone in need of a skilled React and React Native developer.
+        "I've had the pleasure of collaborating with Yasmine on several projects. Yasmine has a remarkable ability to quickly understand project requirements and deliver high-quality code that is both efficient and maintainable. Her work on mobile and web applications has been instrumental in meeting client deadlines and exceeding expectations. Yasmine is not only technically proficient but also a fantastic communicator, making collaboration smooth and effective.",
+      name: "Omar Fawal",
+      title: "Freelance Project Coordinator",
+      img: "/freelance.jpg"
     },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
+    // {
+    //   quote:
+    //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    //   name: "Michael Johnson",
+    //   title: "Director of AlphaStream Technologies",
+    // },
   ];
   
   export const companies = [
@@ -180,7 +191,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      // title: "Mobile App Dev - JSM Tech",
+      title: "Mobile App Dev",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
@@ -188,7 +200,8 @@ export const navItems = [
     {
       id: 3,
       title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      //desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      desc: "Led the dev of a mobile app for a client, from initial concept to deployment.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
@@ -206,12 +219,20 @@ export const navItems = [
       id: 1,
       img: "/git.svg",
     },
+    // {
+    //   id: 2,
+    //   img: "/twit.svg",
+    // },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/insta.svg",
     },
     {
       id: 3,
       img: "/link.svg",
+    },
+    {
+      id: 4,
+      img: "/facebook.png",
     },
   ];
