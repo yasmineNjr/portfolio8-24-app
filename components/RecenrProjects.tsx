@@ -15,7 +15,7 @@ const RecentProjects = () => {
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 ">
         {projects.map(({id, title, des, img, iconLists, link}) => (
           <div
-            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="sm:h-[41rem] h-[36rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={id}
           >
             <PinContainer
@@ -32,7 +32,7 @@ const RecentProjects = () => {
                 <img
                   src={img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute w-[85%] h-[95%] rotate-2"
                 />
               </div>
 
@@ -41,7 +41,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-sm lg:font-normal font-light text-sm line-clamp-2"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
