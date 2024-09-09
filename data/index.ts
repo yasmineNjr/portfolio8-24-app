@@ -155,35 +155,42 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Yasmine was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yasmine's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Yasmine is the ideal partner.",
+      // If you're seeking to elevate your website and elevate your brand, Yasmine is the ideal partner.
+        "Collaborating with Yasmine was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yasmine's enthusiasm for every facet of development truly stands out.",
       name: "Ala'a Aldeen Alzayat",
       title: "Director of Solutions and Empowerment Company",
       img: "/zayyat.jpg"
     },
     {
       quote:// Yasmine has demonstrated exceptional skill in translating theoretical concepts into practical applications. , particularly in their work with Next.js, where they have shown a deep understanding of web development.
-      "I've had the pleasure of working with Yasmine during her time as a student in our Computer Engineering program. Her dedication to mastering complex algorithms and her innovative approach to problem-solving have consistently impressed both myself and her peers. Her ability to tackle challenging projects with enthusiasm and precision is a testament to her potential as a future leader in the tech industry.",
+      //Her dedication to mastering complex algorithms and 
+      //have consistently impressed both myself and her peers.
+      //with enthusiasm and precision 
+      "I've had the pleasure of working with Yasmine during her time as a student in our Computer Engineering program. Her innovative approach to problem-solving and her ability to tackle challenging projects are a testament to her potential as a future leader in the tech industry.",
       name: "Dr. Mohamad Ayman Na'al",
       title: "Ph.D. in Computer Engineering at Aleppo University",
       img: "/ayman.png"
     }, 
     {
       quote://, ensuring timely delivery and exceptional quality. Her ability to effectively communicate complex technical concepts and work seamlessly within a team makes her an invaluable asset to our company.
-        "Working with Yasmine has been an absolute pleasure. Her expertise in software development and innovative approach to problem-solving have consistently exceeded our expectations. Yasmine brings a remarkable level of dedication and professionalism to every project. I highly recommend Yasmine for any organization seeking top-notch software solutions and a collaborative team player.",
+      // I highly recommend Yasmine for any organization seeking top-notch software solutions and a collaborative team player.
+        "Working with Yasmine has been an absolute pleasure. Her expertise in software development and innovative approach to problem-solving have consistently exceeded our expectations. Yasmine brings a remarkable level of dedication and professionalism to every project.",
       name: "Eng. Nouran Masry",
       title: "IT Administrator at Institute of Computer Technologies",
       img: "/nouran.jpg"
     },
     {
       quote://The application is user-friendly, efficient, and has significantly improved our ability to track student progress, manage staff schedules, and streamline communication within the school. Yasmine's technical expertise, attention to detail, and commitment to excellence were evident throughout the entire process. 
-        "Working with Yasmine to develop our school's management application has been an incredible experience. Yasmine took the time to understand our unique needs and delivered a custom solution that has transformed how we manage daily operations. We are extremely satisfied with the results and highly recommend Yasmine for any software development project.",
+      // and highly recommend Yasmine for any software development project
+        "Working with Yasmine to develop our school's management application has been an incredible experience. Yasmine took the time to understand our unique needs and delivered a custom solution that has transformed how we manage daily operations. We are extremely satisfied with the results.",
       name: "Eng. Mohamad Waddah Meera",
       title: "Former Director at Taiba School",
       img: "/waddah.jpg"
     },
     {
       quote://, and her expertise in both React and React Native has consistently impressed me.  I highly recommend [Your Name] to anyone in need of a skilled React and React Native developer.
-        "I've had the pleasure of collaborating with Yasmine on several projects. Yasmine has a remarkable ability to quickly understand project requirements and deliver high-quality code that is both efficient and maintainable. Her work on mobile and web applications has been instrumental in meeting client deadlines and exceeding expectations. Yasmine is not only technically proficient but also a fantastic communicator, making collaboration smooth and effective.",
+      // Yasmine is not only technically proficient but also a fantastic communicator, making collaboration smooth and effective.
+        "I've had the pleasure of collaborating with Yasmine on several projects. Yasmine has a remarkable ability to quickly understand project requirements and deliver high-quality code that is both efficient and maintainable. Her work on mobile and web applications has been instrumental in meeting client deadlines and exceeding expectations.",
       name: "Omar Fawal",
       title: "Freelance Project Coordinator",
       img: "/freelance.jpg"

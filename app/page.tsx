@@ -21,9 +21,12 @@ export default function Home() {
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5">
         <div className="max-w-7xl w-full">
           <Hero/>
-          <FloatingNav navItems={navItems}/>
+          <Suspense>
+            <FloatingNav navItems={navItems}/>
+          </Suspense>
           <Grid/>
-          <Suspense fallback={<p>Loading...</p>}>
+          {/* fallback={<p>Loading...</p>} */}
+          <Suspense> 
             <RecenrProjects/>
             <Clients/>
             <Experience/>
