@@ -14,7 +14,7 @@ const Footer = () => {
         />
       </div>
       <div className='flex flex-col items-center'>
-        <h1 className='heading lg:max-w-[45vw]'>
+        <h1 className='heading lg:max-w-[45vw] text-white'>
             Ready to take <span 
             className='text-purple'>your</span> digital precense to the next level?
         </h1>
@@ -32,10 +32,10 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
+        <p className="md:text-base text-sm md:font-normal font-light text-white">
             Copyright © 2024 Yasmine Alnajjar
         </p>
-        <div className='flex items-center md:gap-3 gap-6'>
+        {/* <div className='flex items-center md:gap-3 gap-6'>
             {socialMedia.map((info) => (
                 <div
                 key={info.id}
@@ -44,7 +44,7 @@ const Footer = () => {
                 <img src={info.img} alt="icons" width={20} height={20} />
                 </div>
             ))}
-        </div>
+        </div> */}
       </div>
     </footer>
   )

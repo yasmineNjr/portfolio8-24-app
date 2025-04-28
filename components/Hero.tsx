@@ -56,7 +56,8 @@ const Hero = () => {
 
         <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
           {/* Hi! I&apos;m Adrian, a Next.js Developer based in Croatia. */}
-          Hi! I&apos;m Yasmine, a React.js/Next.js & React Native Developer based in Syria.
+          {/* Hi! I&apos;m Yasmine, a React.js/Next.js & React Native Developer based in Syria. */}
+          Hi! I&apos;m Yasmine, a React.js/Next.js Developer based in Syria.
         </p>
 
         <a href="#about">

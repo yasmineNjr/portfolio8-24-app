@@ -36,10 +36,9 @@ const RecentProjects = () => {
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base text-white line-clamp-1">
                 {title}
               </h1>
-
               <p
                 className="lg:text-sm lg:font-normal font-light text-sm line-clamp-2"
                 style={{
